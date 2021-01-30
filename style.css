@@ -12,7 +12,7 @@ html {
 
 body {
     margin: 0;
-    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji
+    font-family: inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji
 }
 
 hr {
@@ -264,12 +264,12 @@ input:invalid, select:invalid, textarea:invalid {
     box-shadow: none
 }
 
-.tw-prose {
+#fullArticle {
     color: #374151;
     max-width: 65ch
 }
 
-.tw-prose [class~=lead] {
+#fullArticle [class~=lead] {
     color: #4b5563;
     font-size: 1.25em;
     line-height: 1.6;
@@ -277,30 +277,30 @@ input:invalid, select:invalid, textarea:invalid {
     margin-bottom: 1.2em
 }
 
-.tw-prose a {
+#fullArticle a {
     color: #111827;
     text-decoration: underline;
     font-weight: 500
 }
 
-.tw-prose strong {
+#fullArticle strong {
     color: #111827;
     font-weight: 600
 }
 
-.tw-prose ol {
+#fullArticle ol {
     counter-reset: list-counter;
     margin-top: 1.25em;
     margin-bottom: 1.25em
 }
 
-.tw-prose ol > li {
+#fullArticle ol > li {
     position: relative;
     counter-increment: list-counter;
     padding-left: 1.75em
 }
 
-.tw-prose ol > li:before {
+#fullArticle ol > li:before {
     content: counter(list-counter) ".";
     position: absolute;
     font-weight: 400;
@@ -308,12 +308,12 @@ input:invalid, select:invalid, textarea:invalid {
     left: 0
 }
 
-.tw-prose ul > li {
+#fullArticle ul > li {
     position: relative;
     padding-left: 1.75em
 }
 
-.tw-prose ul > li:before {
+#fullArticle ul > li:before {
     content: "";
     position: absolute;
     background-color: #d1d5db;
@@ -324,14 +324,14 @@ input:invalid, select:invalid, textarea:invalid {
     left: .25em
 }
 
-.tw-prose hr {
+#fullArticle hr {
     border-color: #e5e7eb;
     border-top-width: 1px;
     margin-top: 3em;
     margin-bottom: 3em
 }
 
-.tw-prose blockquote {
+#fullArticle blockquote {
     font-weight: 500;
     font-style: italic;
     color: #111827;
@@ -343,15 +343,15 @@ input:invalid, select:invalid, textarea:invalid {
     padding-left: 1em
 }
 
-.tw-prose blockquote p:first-of-type:before {
+#fullArticle blockquote p:first-of-type:before {
     content: open-quote
 }
 
-.tw-prose blockquote p:last-of-type:after {
+#fullArticle blockquote p:last-of-type:after {
     content: close-quote
 }
 
-.tw-prose h1 {
+#fullArticle h1 {
     color: #111827;
     font-weight: 800;
     font-size: 2.25em;
@@ -360,7 +360,7 @@ input:invalid, select:invalid, textarea:invalid {
     line-height: 1.1111111
 }
 
-.tw-prose h2 {
+#fullArticle h2 {
     color: #111827;
     font-weight: 700;
     font-size: 1.5em;
@@ -369,46 +369,46 @@ input:invalid, select:invalid, textarea:invalid {
     line-height: 1.3333333
 }
 
-.tw-prose h3 {
+#fullArticle h3 {
     font-size: 1.25em;
     margin-top: 1.6em;
     margin-bottom: .6em;
     line-height: 1.6
 }
 
-.tw-prose h3, .tw-prose h4 {
+#fullArticle h3, #fullArticle h4 {
     color: #111827;
     font-weight: 600
 }
 
-.tw-prose h4 {
+#fullArticle h4 {
     margin-top: 1.5em;
     margin-bottom: .5em;
     line-height: 1.5
 }
 
-.tw-prose figure figcaption {
+#fullArticle figure figcaption {
     color: #6b7280;
     font-size: .875em;
     line-height: 1.4285714;
     margin-top: .8571429em
 }
 
-.tw-prose code {
+#fullArticle code {
     color: #111827;
     font-weight: 600;
     font-size: .875em
 }
 
-.tw-prose code:after, .tw-prose code:before {
+#fullArticle code:after, #fullArticle code:before {
     content: "`"
 }
 
-.tw-prose a code {
+#fullArticle a code {
     color: #111827
 }
 
-.tw-prose pre {
+#fullArticle pre {
     color: #e5e7eb;
     background-color: #1f2937;
     overflow-x: auto;
@@ -420,7 +420,7 @@ input:invalid, select:invalid, textarea:invalid {
     padding: .8571429em 1.1428571em
 }
 
-.tw-prose pre code {
+#fullArticle pre code {
     background-color: transparent;
     border-width: 0;
     border-radius: 0;
@@ -432,11 +432,11 @@ input:invalid, select:invalid, textarea:invalid {
     line-height: inherit
 }
 
-.tw-prose pre code:after, .tw-prose pre code:before {
+#fullArticle pre code:after, #fullArticle pre code:before {
     content: ""
 }
 
-.tw-prose table {
+#fullArticle table {
     width: 100%;
     table-layout: auto;
     text-align: left;
@@ -446,123 +446,123 @@ input:invalid, select:invalid, textarea:invalid {
     line-height: 1.7142857
 }
 
-.tw-prose thead {
+#fullArticle thead {
     color: #111827;
     font-weight: 600;
     border-bottom-width: 1px;
     border-bottom-color: #d1d5db
 }
 
-.tw-prose thead th {
+#fullArticle thead th {
     vertical-align: bottom;
     padding-right: .5714286em;
     padding-bottom: .5714286em;
     padding-left: .5714286em
 }
 
-.tw-prose tbody tr {
+#fullArticle tbody tr {
     border-bottom-width: 1px;
     border-bottom-color: #e5e7eb
 }
 
-.tw-prose tbody tr:last-child {
+#fullArticle tbody tr:last-child {
     border-bottom-width: 0
 }
 
-.tw-prose tbody td {
+#fullArticle tbody td {
     vertical-align: top;
     padding: .5714286em
 }
 
-.tw-prose {
+#fullArticle {
     font-size: 1rem;
     line-height: 1.75
 }
 
-.tw-prose p {
+#fullArticle p {
     margin-top: 1.25em;
     margin-bottom: 1.25em
 }
 
-.tw-prose figure, .tw-prose img, .tw-prose video {
+#fullArticle figure, #fullArticle img, #fullArticle video {
     margin-top: 2em;
     margin-bottom: 2em
 }
 
-.tw-prose figure > * {
+#fullArticle figure > * {
     margin-top: 0;
     margin-bottom: 0
 }
 
-.tw-prose h2 code {
+#fullArticle h2 code {
     font-size: .875em
 }
 
-.tw-prose h3 code {
+#fullArticle h3 code {
     font-size: .9em
 }
 
-.tw-prose ul {
+#fullArticle ul {
     margin-top: 1.25em;
     margin-bottom: 1.25em
 }
 
-.tw-prose li {
+#fullArticle li {
     margin-top: .5em;
     margin-bottom: .5em
 }
 
-.tw-prose > ul > li p {
+#fullArticle > ul > li p {
     margin-top: .75em;
     margin-bottom: .75em
 }
 
-.tw-prose > ul > li > :first-child {
+#fullArticle > ul > li > :first-child {
     margin-top: 1.25em
 }
 
-.tw-prose > ul > li > :last-child {
+#fullArticle > ul > li > :last-child {
     margin-bottom: 1.25em
 }
 
-.tw-prose > ol > li > :first-child {
+#fullArticle > ol > li > :first-child {
     margin-top: 1.25em
 }
 
-.tw-prose > ol > li > :last-child {
+#fullArticle > ol > li > :last-child {
     margin-bottom: 1.25em
 }
 
-.tw-prose ol ol, .tw-prose ol ul, .tw-prose ul ol, .tw-prose ul ul {
+#fullArticle ol ol, #fullArticle ol ul, #fullArticle ul ol, #fullArticle ul ul {
     margin-top: .75em;
     margin-bottom: .75em
 }
 
-.tw-prose h2 + *, .tw-prose h3 + *, .tw-prose h4 + *, .tw-prose hr + * {
+#fullArticle h2 + *, #fullArticle h3 + *, #fullArticle h4 + *, #fullArticle hr + * {
     margin-top: 0
 }
 
-.tw-prose thead th:first-child {
+#fullArticle thead th:first-child {
     padding-left: 0
 }
 
-.tw-prose thead th:last-child {
+#fullArticle thead th:last-child {
     padding-right: 0
 }
 
-.tw-prose tbody td:first-child {
+#fullArticle tbody td:first-child {
     padding-left: 0
 }
 
-.tw-prose tbody td:last-child {
+#fullArticle tbody td:last-child {
     padding-right: 0
 }
 
-.tw-prose > :first-child {
+#fullArticle > :first-child {
     margin-top: 0
 }
 
-.tw-prose > :last-child {
+#fullArticle > :last-child {
     margin-bottom: 0
 }
 
