@@ -108,7 +108,7 @@ body {
 }
 
 #fullArticle pre {
-    white-space: nowrap;
+    white-space: pre;
     color: #e5e7eb;
     background-color: #1f2937;
     overflow-x: auto;
