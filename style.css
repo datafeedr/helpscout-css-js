@@ -37,29 +37,32 @@ body {
 
 #fullArticle #toc a::before {
     content: "#";
-    color: rgba(0, 0, 0, 0.31);
+    color: rgba(0, 0, 0, 0.24);
     margin-right: 8px;
 }
 
 #fullArticle #toc .h2 {
-    margin-left: 0;
+    padding-left: 0;
     font-size: 1.5rem;
-    line-height: 1.3333333;
+    font-weight: 700;
 }
 
 #fullArticle #toc .h3 {
-    margin-left: 1rem;
+    padding-left: 1rem;
     font-size: 1.2rem;
+    font-weight: 600;
 }
 
 #fullArticle #toc .h4 {
-    margin-left: 2rem;
+    padding-left: 2rem;
     font-size: 1rem;
+    font-weight: 500;
 }
 
 #fullArticle #toc .h5 {
-    margin-left: 3rem;
+    padding-left: 3rem;
     font-size: 0.8rem;
+    font-weight: 500;
 }
 
 .ml-8 {
@@ -120,7 +123,10 @@ body {
     font-weight: 600;
 }
 
-#fullArticle .anchor-link a {
+#fullArticle h2.anchor-link a,
+#fullArticle h3.anchor-link a,
+#fullArticle h4.anchor-link a,
+#fullArticle h5.anchor-link a {
     color: #111827;
 }
 
