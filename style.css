@@ -28,22 +28,22 @@ body {
 
 #fullArticle #toc .h2 {
     margin-left: 0;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 #fullArticle #toc .h3 {
     margin-left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 #fullArticle #toc .h4 {
     margin-left: 2rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #fullArticle #toc .h5 {
     margin-left: 3rem;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 
 .ml-8 {
