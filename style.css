@@ -26,9 +26,15 @@ body {
     flex-direction: column;
 }
 
+#fullArticle #toc a::before {
+    content: "#";
+    color: red;
+}
+
 #fullArticle #toc .h2 {
     margin-left: 0;
     font-size: 1.5rem;
+    line-height: 1.3333333;
 }
 
 #fullArticle #toc .h3 {
@@ -50,7 +56,9 @@ body {
     margin-left: 2rem;
 }
 
-.ml-12	{margin-left: 3rem;}
+.ml-12 {
+    margin-left: 3rem;
+}
 
 #fullArticle h2 + *,
 #fullArticle h3 + *,
