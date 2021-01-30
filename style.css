@@ -6,6 +6,7 @@
 }
 
 html {
+    font-size: 16px;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%
 }
@@ -852,12 +853,12 @@ input:invalid, select:invalid, textarea:invalid {
 }
 
 @media (min-width: 640px) {
-    .sm\:tw-prose {
+    #fullArticle {
         color: #374151;
         max-width: 65ch
     }
 
-    .sm\:tw-prose [class~=lead] {
+    #fullArticle [class~=lead] {
         color: #4b5563;
         font-size: 1.25em;
         line-height: 1.6;
@@ -865,30 +866,30 @@ input:invalid, select:invalid, textarea:invalid {
         margin-bottom: 1.2em
     }
 
-    .sm\:tw-prose a {
+    #fullArticle a {
         color: #111827;
         text-decoration: underline;
         font-weight: 500
     }
 
-    .sm\:tw-prose strong {
+    #fullArticle strong {
         color: #111827;
         font-weight: 600
     }
 
-    .sm\:tw-prose ol {
+    #fullArticle ol {
         counter-reset: list-counter;
         margin-top: 1.25em;
         margin-bottom: 1.25em
     }
 
-    .sm\:tw-prose ol > li {
+    #fullArticle ol > li {
         position: relative;
         counter-increment: list-counter;
         padding-left: 1.75em
     }
 
-    .sm\:tw-prose ol > li:before {
+    #fullArticle ol > li:before {
         content: counter(list-counter) ".";
         position: absolute;
         font-weight: 400;
@@ -896,12 +897,12 @@ input:invalid, select:invalid, textarea:invalid {
         left: 0
     }
 
-    .sm\:tw-prose ul > li {
+    #fullArticle ul > li {
         position: relative;
         padding-left: 1.75em
     }
 
-    .sm\:tw-prose ul > li:before {
+    #fullArticle ul > li:before {
         content: "";
         position: absolute;
         background-color: #d1d5db;
@@ -912,14 +913,14 @@ input:invalid, select:invalid, textarea:invalid {
         left: .25em
     }
 
-    .sm\:tw-prose hr {
+    #fullArticle hr {
         border-color: #e5e7eb;
         border-top-width: 1px;
         margin-top: 3em;
         margin-bottom: 3em
     }
 
-    .sm\:tw-prose blockquote {
+    #fullArticle blockquote {
         font-weight: 500;
         font-style: italic;
         color: #111827;
@@ -931,15 +932,15 @@ input:invalid, select:invalid, textarea:invalid {
         padding-left: 1em
     }
 
-    .sm\:tw-prose blockquote p:first-of-type:before {
+    #fullArticle blockquote p:first-of-type:before {
         content: open-quote
     }
 
-    .sm\:tw-prose blockquote p:last-of-type:after {
+    #fullArticle blockquote p:last-of-type:after {
         content: close-quote
     }
 
-    .sm\:tw-prose h1 {
+    #fullArticle h1 {
         color: #111827;
         font-weight: 800;
         font-size: 2.25em;
@@ -948,7 +949,7 @@ input:invalid, select:invalid, textarea:invalid {
         line-height: 1.1111111
     }
 
-    .sm\:tw-prose h2 {
+    #fullArticle h2 {
         color: #111827;
         font-weight: 700;
         font-size: 1.5em;
@@ -957,7 +958,7 @@ input:invalid, select:invalid, textarea:invalid {
         line-height: 1.3333333
     }
 
-    .sm\:tw-prose h3 {
+    #fullArticle h3 {
         color: #111827;
         font-weight: 600;
         font-size: 1.25em;
@@ -966,7 +967,7 @@ input:invalid, select:invalid, textarea:invalid {
         line-height: 1.6
     }
 
-    .sm\:tw-prose h4 {
+    #fullArticle h4 {
         color: #111827;
         font-weight: 600;
         margin-top: 1.5em;
@@ -974,28 +975,28 @@ input:invalid, select:invalid, textarea:invalid {
         line-height: 1.5
     }
 
-    .sm\:tw-prose figure figcaption {
+    #fullArticle figure figcaption {
         color: #6b7280;
         font-size: .875em;
         line-height: 1.4285714;
         margin-top: .8571429em
     }
 
-    .sm\:tw-prose code {
+    #fullArticle code {
         color: #111827;
         font-weight: 600;
         font-size: .875em
     }
 
-    .sm\:tw-prose code:after, .sm\:tw-prose code:before {
+    #fullArticle code:after, #fullArticle code:before {
         content: "`"
     }
 
-    .sm\:tw-prose a code {
+    #fullArticle a code {
         color: #111827
     }
 
-    .sm\:tw-prose pre {
+    #fullArticle pre {
         color: #e5e7eb;
         background-color: #1f2937;
         overflow-x: auto;
@@ -1007,7 +1008,7 @@ input:invalid, select:invalid, textarea:invalid {
         padding: .8571429em 1.1428571em
     }
 
-    .sm\:tw-prose pre code {
+    #fullArticle pre code {
         background-color: transparent;
         border-width: 0;
         border-radius: 0;
@@ -1019,11 +1020,11 @@ input:invalid, select:invalid, textarea:invalid {
         line-height: inherit
     }
 
-    .sm\:tw-prose pre code:after, .sm\:tw-prose pre code:before {
+    #fullArticle pre code:after, #fullArticle pre code:before {
         content: ""
     }
 
-    .sm\:tw-prose table {
+    #fullArticle table {
         width: 100%;
         table-layout: auto;
         text-align: left;
@@ -1033,207 +1034,207 @@ input:invalid, select:invalid, textarea:invalid {
         line-height: 1.7142857
     }
 
-    .sm\:tw-prose thead {
+    #fullArticle thead {
         color: #111827;
         font-weight: 600;
         border-bottom-width: 1px;
         border-bottom-color: #d1d5db
     }
 
-    .sm\:tw-prose thead th {
+    #fullArticle thead th {
         vertical-align: bottom;
         padding-right: .5714286em;
         padding-bottom: .5714286em;
         padding-left: .5714286em
     }
 
-    .sm\:tw-prose tbody tr {
+    #fullArticle tbody tr {
         border-bottom-width: 1px;
         border-bottom-color: #e5e7eb
     }
 
-    .sm\:tw-prose tbody tr:last-child {
+    #fullArticle tbody tr:last-child {
         border-bottom-width: 0
     }
 
-    .sm\:tw-prose tbody td {
+    #fullArticle tbody td {
         vertical-align: top;
         padding: .5714286em
     }
 
-    .sm\:tw-prose {
+    #fullArticle {
         font-size: 1rem;
         line-height: 1.75
     }
 
-    .sm\:tw-prose p {
+    #fullArticle p {
         margin-top: 1.25em;
         margin-bottom: 1.25em
     }
 
-    .sm\:tw-prose figure, .sm\:tw-prose img, .sm\:tw-prose video {
+    #fullArticle figure, #fullArticle img, #fullArticle video {
         margin-top: 2em;
         margin-bottom: 2em
     }
 
-    .sm\:tw-prose figure > * {
+    #fullArticle figure > * {
         margin-top: 0;
         margin-bottom: 0
     }
 
-    .sm\:tw-prose h2 code {
+    #fullArticle h2 code {
         font-size: .875em
     }
 
-    .sm\:tw-prose h3 code {
+    #fullArticle h3 code {
         font-size: .9em
     }
 
-    .sm\:tw-prose ul {
+    #fullArticle ul {
         margin-top: 1.25em;
         margin-bottom: 1.25em
     }
 
-    .sm\:tw-prose li {
+    #fullArticle li {
         margin-top: .5em;
         margin-bottom: .5em
     }
 
-    .sm\:tw-prose > ul > li p {
+    #fullArticle > ul > li p {
         margin-top: .75em;
         margin-bottom: .75em
     }
 
-    .sm\:tw-prose > ul > li > :first-child {
+    #fullArticle > ul > li > :first-child {
         margin-top: 1.25em
     }
 
-    .sm\:tw-prose > ul > li > :last-child {
+    #fullArticle > ul > li > :last-child {
         margin-bottom: 1.25em
     }
 
-    .sm\:tw-prose > ol > li > :first-child {
+    #fullArticle > ol > li > :first-child {
         margin-top: 1.25em
     }
 
-    .sm\:tw-prose > ol > li > :last-child {
+    #fullArticle > ol > li > :last-child {
         margin-bottom: 1.25em
     }
 
-    .sm\:tw-prose ol ol, .sm\:tw-prose ol ul, .sm\:tw-prose ul ol, .sm\:tw-prose ul ul {
+    #fullArticle ol ol, #fullArticle ol ul, #fullArticle ul ol, #fullArticle ul ul {
         margin-top: .75em;
         margin-bottom: .75em
     }
 
-    .sm\:tw-prose h2 + *, .sm\:tw-prose h3 + *, .sm\:tw-prose h4 + *, .sm\:tw-prose hr + * {
+    #fullArticle h2 + *, #fullArticle h3 + *, #fullArticle h4 + *, #fullArticle hr + * {
         margin-top: 0
     }
 
-    .sm\:tw-prose thead th:first-child {
+    #fullArticle thead th:first-child {
         padding-left: 0
     }
 
-    .sm\:tw-prose thead th:last-child {
+    #fullArticle thead th:last-child {
         padding-right: 0
     }
 
-    .sm\:tw-prose tbody td:first-child {
+    #fullArticle tbody td:first-child {
         padding-left: 0
     }
 
-    .sm\:tw-prose tbody td:last-child {
+    #fullArticle tbody td:last-child {
         padding-right: 0
     }
 
-    .sm\:tw-prose > :first-child {
+    #fullArticle > :first-child {
         margin-top: 0
     }
 
-    .sm\:tw-prose > :last-child {
+    #fullArticle > :last-child {
         margin-bottom: 0
     }
 }
 
 @media (min-width: 1024px) {
-    .lg\:tw-prose-lg {
+    #fullArticle {
         font-size: 1.125rem;
         line-height: 1.7777778
     }
 
-    .lg\:tw-prose-lg p {
+    #fullArticle p {
         margin-top: 1.3333333em;
         margin-bottom: 1.3333333em
     }
 
-    .lg\:tw-prose-lg [class~=lead] {
+    #fullArticle [class~=lead] {
         font-size: 1.2222222em;
         line-height: 1.4545455;
         margin-top: 1.0909091em;
         margin-bottom: 1.0909091em
     }
 
-    .lg\:tw-prose-lg blockquote {
+    #fullArticle blockquote {
         margin-top: 1.6666667em;
         margin-bottom: 1.6666667em;
         padding-left: 1em
     }
 
-    .lg\:tw-prose-lg h1 {
+    #fullArticle h1 {
         font-size: 2.6666667em;
         margin-top: 0;
         margin-bottom: .8333333em;
         line-height: 1
     }
 
-    .lg\:tw-prose-lg h2 {
+    #fullArticle h2 {
         font-size: 1.6666667em;
         margin-top: 1.8666667em;
         margin-bottom: 1.0666667em;
         line-height: 1.3333333
     }
 
-    .lg\:tw-prose-lg h3 {
+    #fullArticle h3 {
         font-size: 1.3333333em;
         margin-top: 1.6666667em;
         margin-bottom: .6666667em;
         line-height: 1.5
     }
 
-    .lg\:tw-prose-lg h4 {
+    #fullArticle h4 {
         margin-top: 1.7777778em;
         margin-bottom: .4444444em;
         line-height: 1.5555556
     }
 
-    .lg\:tw-prose-lg figure, .lg\:tw-prose-lg img, .lg\:tw-prose-lg video {
+    #fullArticle figure, #fullArticle img, #fullArticle video {
         margin-top: 1.7777778em;
         margin-bottom: 1.7777778em
     }
 
-    .lg\:tw-prose-lg figure > * {
+    #fullArticle figure > * {
         margin-top: 0;
         margin-bottom: 0
     }
 
-    .lg\:tw-prose-lg figure figcaption {
+    #fullArticle figure figcaption {
         font-size: .8888889em;
         line-height: 1.5;
         margin-top: 1em
     }
 
-    .lg\:tw-prose-lg code {
+    #fullArticle code {
         font-size: .8888889em
     }
 
-    .lg\:tw-prose-lg h2 code {
+    #fullArticle h2 code {
         font-size: .8666667em
     }
 
-    .lg\:tw-prose-lg h3 code {
+    #fullArticle h3 code {
         font-size: .875em
     }
 
-    .lg\:tw-prose-lg pre {
+    #fullArticle pre {
         font-size: .8888889em;
         line-height: 1.75;
         margin-top: 2em;
@@ -1242,106 +1243,106 @@ input:invalid, select:invalid, textarea:invalid {
         padding: 1em 1.5em
     }
 
-    .lg\:tw-prose-lg ol, .lg\:tw-prose-lg ul {
+    #fullArticle ol, #fullArticle ul {
         margin-top: 1.3333333em;
         margin-bottom: 1.3333333em
     }
 
-    .lg\:tw-prose-lg li {
+    #fullArticle li {
         margin-top: .6666667em;
         margin-bottom: .6666667em
     }
 
-    .lg\:tw-prose-lg ol > li {
+    #fullArticle ol > li {
         padding-left: 1.6666667em
     }
 
-    .lg\:tw-prose-lg ol > li:before {
+    #fullArticle ol > li:before {
         left: 0
     }
 
-    .lg\:tw-prose-lg ul > li {
+    #fullArticle ul > li {
         padding-left: 1.6666667em
     }
 
-    .lg\:tw-prose-lg ul > li:before {
+    #fullArticle ul > li:before {
         width: .3333333em;
         height: .3333333em;
         top: .72222em;
         left: .2222222em
     }
 
-    .lg\:tw-prose-lg > ul > li p {
+    #fullArticle > ul > li p {
         margin-top: .8888889em;
         margin-bottom: .8888889em
     }
 
-    .lg\:tw-prose-lg > ul > li > :first-child {
+    #fullArticle > ul > li > :first-child {
         margin-top: 1.3333333em
     }
 
-    .lg\:tw-prose-lg > ul > li > :last-child {
+    #fullArticle > ul > li > :last-child {
         margin-bottom: 1.3333333em
     }
 
-    .lg\:tw-prose-lg > ol > li > :first-child {
+    #fullArticle > ol > li > :first-child {
         margin-top: 1.3333333em
     }
 
-    .lg\:tw-prose-lg > ol > li > :last-child {
+    #fullArticle > ol > li > :last-child {
         margin-bottom: 1.3333333em
     }
 
-    .lg\:tw-prose-lg ol ol, .lg\:tw-prose-lg ol ul, .lg\:tw-prose-lg ul ol, .lg\:tw-prose-lg ul ul {
+    #fullArticle ol ol, #fullArticle ol ul, #fullArticle ul ol, #fullArticle ul ul {
         margin-top: .8888889em;
         margin-bottom: .8888889em
     }
 
-    .lg\:tw-prose-lg hr {
+    #fullArticle hr {
         margin-top: 3.1111111em;
         margin-bottom: 3.1111111em
     }
 
-    .lg\:tw-prose-lg h2 + *, .lg\:tw-prose-lg h3 + *, .lg\:tw-prose-lg h4 + *, .lg\:tw-prose-lg hr + * {
+    #fullArticle h2 + *, #fullArticle h3 + *, #fullArticle h4 + *, #fullArticle hr + * {
         margin-top: 0
     }
 
-    .lg\:tw-prose-lg table {
+    #fullArticle table {
         font-size: .8888889em;
         line-height: 1.5
     }
 
-    .lg\:tw-prose-lg thead th {
+    #fullArticle thead th {
         padding-right: .75em;
         padding-bottom: .75em;
         padding-left: .75em
     }
 
-    .lg\:tw-prose-lg thead th:first-child {
+    #fullArticle thead th:first-child {
         padding-left: 0
     }
 
-    .lg\:tw-prose-lg thead th:last-child {
+    #fullArticle thead th:last-child {
         padding-right: 0
     }
 
-    .lg\:tw-prose-lg tbody td {
+    #fullArticle tbody td {
         padding: .75em
     }
 
-    .lg\:tw-prose-lg tbody td:first-child {
+    #fullArticle tbody td:first-child {
         padding-left: 0
     }
 
-    .lg\:tw-prose-lg tbody td:last-child {
+    #fullArticle tbody td:last-child {
         padding-right: 0
     }
 
-    .lg\:tw-prose-lg > :first-child {
+    #fullArticle > :first-child {
         margin-top: 0
     }
 
-    .lg\:tw-prose-lg > :last-child {
+    #fullArticle > :last-child {
         margin-bottom: 0
     }
 }
