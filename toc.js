@@ -44,5 +44,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (document.getElementById('toc').childNodes.length === 0) {
         document.getElementById('toc').remove();
+    } else {
+        $label = document.createElement('div');
+        $label.className = 'label';
+        $label.innerText = 'On this page';
+        document.getElementById('toc').prepend($label);
     }
 }, false);
