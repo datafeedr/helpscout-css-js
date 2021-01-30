@@ -29,6 +29,7 @@ body {
 #fullArticle #toc a {
     line-height: 1.5;
     text-decoration: none;
+    color: #111827;
 }
 
 #fullArticle #toc a:hover {
@@ -43,8 +44,8 @@ body {
 
 #fullArticle #toc .h2 {
     padding-left: 0;
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.4rem;
+    font-weight: 800;
 }
 
 #fullArticle #toc .h3 {
@@ -56,13 +57,13 @@ body {
 #fullArticle #toc .h4 {
     padding-left: 2rem;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 #fullArticle #toc .h5 {
     padding-left: 3rem;
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .ml-8 {
@@ -123,10 +124,7 @@ body {
     font-weight: 600;
 }
 
-#fullArticle h2.anchor-link a,
-#fullArticle h3.anchor-link a,
-#fullArticle h4.anchor-link a,
-#fullArticle h5.anchor-link a {
+#fullArticle a.anchor-link{
     color: #111827;
 }
 
