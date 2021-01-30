@@ -26,9 +26,19 @@ body {
     flex-direction: column;
 }
 
+#fullArticle #toc a {
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+#fullArticle #toc a:hover {
+    text-decoration: none;
+}
+
 #fullArticle #toc a::before {
     content: "#";
-    color: red;
+    color: rgba(0, 0, 0, 0.31);
+    margin-right: 8px;
 }
 
 #fullArticle #toc .h2 {
