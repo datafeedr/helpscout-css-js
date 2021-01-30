@@ -21,12 +21,14 @@ document.addEventListener('DOMContentLoaded', function () {
         // create anchor for toc and append to #toc
         $tocLink = document.createElement('a');
 
-        if ($heading.tagName === 'H4') {
-            $tocLink.className = 'ml-8';
+        if ($heading.tagName === 'H5') {
+            $tocLink.className = 'h5';
+        } else if ($heading.tagName === 'H4') {
+            $tocLink.className = 'h4';
         } else if ($heading.tagName === 'H3') {
-            $tocLink.className = 'ml-4';
+            $tocLink.className = 'h3';
         } else {
-            $tocLink.className = 'ml-0 ';
+            $tocLink.className = 'h2';
         }
 
         $tocLink.href = '#' + id;
@@ -41,6 +43,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     if (document.getElementById('toc').childNodes.length === 0) {
-        document.getElementById('tocWrapper').classList.add('hidden');
+        document.getElementById('toc').remove();
     }
 }, false);
