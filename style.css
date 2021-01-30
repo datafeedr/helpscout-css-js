@@ -26,7 +26,44 @@ body {
     flex-direction: column;
 }
 
-#fullArticle h2 a {
+#fullArticle h2 + *,
+#fullArticle h3 + *,
+#fullArticle h4 + *,
+#fullArticle hr + * {
+    margin-top: 0;
+}
+
+#fullArticle h3, #fullArticle h4 {
+    color: #111827;
+    font-weight: 600;
+}
+
+#fullArticle h3 {
+    font-size: 1.25em;
+    margin-top: 1.6em;
+    margin-bottom: .6em;
+    line-height: 1.6;
+}
+
+#fullArticle h2 {
+    color: #111827;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    line-height: 1.3333333;
+}
+
+#fullArticle h4 {
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+    line-height: 1.5;
+}
+
+#fullArticle h2 a,
+#fullArticle h3 a,
+#fullArticle h4 a,
+#fullArticle h5 a {
     color: #111827;
 }
 
