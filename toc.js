@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
         $heading.appendChild($anchor);
     });
 
-    if (document.getElementById('toc').childNodes.length === 0) {
+    if (document.getElementById('toc').hasChildNodes()) {
         document.getElementById('toc').remove();
     } else {
         $label = document.createElement('div');
