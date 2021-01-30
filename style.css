@@ -6,7 +6,6 @@
 }
 
 html {
-    font-size: 16px;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%
 }
@@ -267,7 +266,8 @@ input:invalid, select:invalid, textarea:invalid {
 
 #fullArticle {
     color: #374151;
-    max-width: 65ch
+    max-width: 65ch;
+    font-size: 16px;
 }
 
 #fullArticle [class~=lead] {
