@@ -42,12 +42,14 @@ document.addEventListener('DOMContentLoaded', function () {
         $heading.appendChild($anchor);
     });
 
-    if (!document.getElementById('toc').hasChildNodes()) {
-        document.getElementById('toc').remove();
-    } else {
-        $label = document.createElement('div');
-        $label.className = 'label';
-        $label.innerText = 'On this page';
-        document.getElementById('toc').prepend($label);
+    if (document.getElementById('toc')) {
+        if (document.getElementById('toc').hasChildNodes()) {
+            $label = document.createElement('div');
+            $label.className = 'label';
+            $label.innerText = 'On this page';
+            document.getElementById('toc').prepend($label);
+        } else {
+            document.getElementById('toc').remove();
+        }
     }
 }, false);
