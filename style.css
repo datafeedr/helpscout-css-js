@@ -37,6 +37,10 @@ body {
     overflow: hidden;
 }
 
+.navbar .nav li {
+    font-size: 0.8rem;
+}
+
 .navbar .nav li a {
     opacity: 0.9;
 }
