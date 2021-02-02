@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('#fullArticle h2, #fullArticle h3, #fullArticle h4, #fullArticle h5').forEach($heading => {
+    document.querySelectorAll('#fullArticle > h2, #fullArticle > h3, #fullArticle > h4, #fullArticle > h5').forEach($heading => {
 
         // @link https://attacomsian.com/blog/deep-anchor-links-javascript
 
