@@ -10,6 +10,11 @@ html {
     }
 }
 
+body {
+    background: #FAFAF9;
+    font-family: inter, sans-serif;
+}
+
 .navbar .brand {
     height: 34px;
     text-shadow: none;
@@ -63,9 +68,10 @@ html {
     opacity: .7;
 }
 
-body {
-    background: #FAFAF9;
-    font-family: inter, sans-serif;
+#sidebar .nav-list a {
+    font-size: 1.1rem;
+    padding: 10px 15px 10px 0;
+    font-weight: 300;
 }
 
 #main-content {
