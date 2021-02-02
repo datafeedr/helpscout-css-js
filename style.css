@@ -58,6 +58,10 @@ body {
     transition: transform 0.25s;
 }
 
+.category-list .category h3 {
+    color: #111827
+}
+
 .category-list .category p {
     min-height: 36px;
     color: #57534E;
