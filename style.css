@@ -4,6 +4,30 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+.navbar .brand
+{
+	height: 34px;
+	text-shadow: none;
+	color: #fff;
+	margin-left: 0;
+	padding-left: 0;
+	width: 150px;
+	background: url("https://www.datafeedr.com/wp-homepage/white-icon-white-text.svg");
+	background-repeat: no-repeat;
+	background-size: 100%, auto;
+	background-position-y: 14px;
+}
+
+.navbar .brand span
+{
+	position: absolute;
+	left: -100000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
 body {
     background: #FAFAFA;
     font-family: inter, sans-serif;
