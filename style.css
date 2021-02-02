@@ -53,6 +53,16 @@ html {
     transition: transform 0.25s;
 }
 
+.category-list .category p {
+    min-height: 36px;
+}
+
+.category-list .category .article-count,
+.category-list .category:hover .article-count {
+    text-transform: uppercase;
+    opacity: .7;
+}
+
 body {
     background: #FAFAF9;
     font-family: inter, sans-serif;
