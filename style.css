@@ -40,7 +40,7 @@ html {
 }
 
 .category-list .category:hover {
-    --tw-translate-y: -0.25rem;
+    transform: translateY(-0.25rem);
 }
 
 .category-list .category {
@@ -48,9 +48,8 @@ html {
     border-radius: 0.5rem;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     border: none;
-    transition-duration: 150ms;
-    transition-property: transform;
-    --transform-translate-y: 0!important;
+    transform: translateY(0);
+    transition: transform 0.2s ease 0s;
 }
 
 body {
