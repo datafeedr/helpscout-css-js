@@ -60,6 +60,7 @@ body {
 
 .category-list .category p {
     min-height: 36px;
+    color: #57534E;
 }
 
 .category-list .category .article-count,
