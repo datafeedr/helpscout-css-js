@@ -33,14 +33,15 @@ html {
 }
 
 #docsSearch {
-    background: #F5F5F4;
+    background: #ffffff;
     border-bottom: 1px solid #D6D3D1;
     /*margin-bottom: 3em;*/
     padding: 4.5em 0;
 }
 
 .category-list .category:hover {
-    transform: translateY(-0.25rem);
+    transform: translateY(-0.35rem);
+    background-color: white;
 }
 
 .category-list .category {
@@ -49,7 +50,7 @@ html {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     border: none;
     transform: translateY(0);
-    transition: transform 0.2s ease 0s;
+    transition: transform 0.25s;
 }
 
 body {
