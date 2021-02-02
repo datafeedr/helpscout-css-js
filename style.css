@@ -39,6 +39,13 @@ html {
     padding: 4.5em 0;
 }
 
+.category-list .category {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    border: none;
+}
+
 body {
     background: #FAFAF9;
     font-family: inter, sans-serif;
