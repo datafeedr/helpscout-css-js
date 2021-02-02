@@ -37,6 +37,15 @@ body {
     overflow: hidden;
 }
 
+/*.navbar .nav>li>a {*/
+/*    padding: 21px 15px;*/
+/*}*/
+
+#mainNav .container-fluid {
+    min-height: 90px;
+    line-height: 90px;
+}
+
 #docsSearch {
     background: #ffffff;
     border-bottom: 1px solid #E7E5E4;
