@@ -68,13 +68,14 @@ body {
     top: 1px;
 }
 
-[class^=icon-] {
+.articleList [class^=icon-] {
     position: relative;
+    margin-right: 20px;
 }
 
-.articleList a span {
-    padding-left: 20px;
-}
+/*.articleList a span {*/
+/*    padding-left: 20px;*/
+/*}*/
 
 /*.icon-article-doc:before {*/
 /*    background-image: url("https://dreamy-yalow-dd1678.netlify.app/document-text.svg");*/
