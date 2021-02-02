@@ -1,31 +1,35 @@
 @import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
 }
 
-.navbar .brand
-{
-	height: 34px;
-	text-shadow: none;
-	color: #fff;
-	margin-left: 0;
-	padding-left: 0;
-	width: 150px;
-	background: url("https://www.datafeedr.com/wp-homepage/white-icon-white-text.svg");
-	background-repeat: no-repeat;
-	background-size: 100%, auto;
-	background-position-y: 14px;
+.navbar .brand {
+    height: 34px;
+    text-shadow: none;
+    color: #fff;
+    margin-left: 0;
+    padding-left: 0;
+    width: 150px;
+    background: url("https://dreamy-yalow-dd1678.netlify.app/white-icon-white-text.svg");
+    background-repeat: no-repeat;
+    background-size: 100%, auto;
+    background-position-y: 14px;
 }
 
-.navbar .brand span
-{
-	position: absolute;
-	left: -100000px;
-	top: auto;
-	width: 1px;
-	height: 1px;
-	overflow: hidden;
+.navbar .brand span {
+    position: absolute;
+    left: -100000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 
 body {
@@ -42,8 +46,19 @@ body {
 }
 
 .contentWrapper {
-    border-radius: 0.5rem;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    border: 1px solid #e8e8e8;
+}
+
+.articleList::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 4px;
+    left: 0;
+    background: #404996;
 }
 
 #fullArticle {
