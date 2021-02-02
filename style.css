@@ -45,7 +45,7 @@ body {
     display: none;
 }
 
-.navbar .nav .active {
+.navbar .nav li.active a {
     font-weight: 700;
     opacity: 1;
 }
