@@ -25,7 +25,7 @@ body {
     background: url("https://dreamy-yalow-dd1678.netlify.app/white-icon-white-text.svg");
     background-repeat: no-repeat;
     background-size: 100%, auto;
-    background-position-y: 14px;
+    background-position-y: 30px;
 }
 
 .navbar .brand span {
@@ -37,9 +37,18 @@ body {
     overflow: hidden;
 }
 
-/*.navbar .nav>li>a {*/
-/*    padding: 21px 15px;*/
-/*}*/
+.navbar .nav li a {
+    opacity: 0.9;
+}
+
+.navbar .nav .active .caret {
+    display: none;
+}
+
+.navbar .nav .active {
+    font-weight: 700;
+    opacity: 1;
+}
 
 #mainNav .container-fluid {
     min-height: 90px;
