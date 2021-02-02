@@ -60,8 +60,12 @@ body {
 }
 
 .icon-article-doc:before {
-    content: "content: url(https://dreamy-yalow-dd1678.netlify.app/document-text.svg); width: 16px; height: 16px;";
-
+    /*content: "content: url(https://dreamy-yalow-dd1678.netlify.app/document-text.svg); width: 16px; height: 16px;";*/
+    content: ' ';
+    background-image: url('https://dreamy-yalow-dd1678.netlify.app/document-text.svg');
+    background-size: 16px 16px;
+    height: 16px;
+    width: 16px;
 }
 
 #docsSearch {
