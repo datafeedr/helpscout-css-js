@@ -59,6 +59,11 @@ body {
     line-height: 90px;
 }
 
+.icon-article-doc:before {
+    content: "content: url(https://dreamy-yalow-dd1678.netlify.app/document-text.svg); width: 16px; height: 16px;";
+
+}
+
 #docsSearch {
     background: #ffffff;
     border-bottom: 1px solid #E7E5E4;
