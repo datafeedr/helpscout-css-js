@@ -73,6 +73,13 @@ body {
     margin-right: 22px;
 }
 
+.related {
+    margin-top: 30px;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    border: none;
+}
+
 /*.articleList a span {*/
 /*    padding-left: 20px;*/
 /*}*/
