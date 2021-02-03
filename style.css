@@ -37,6 +37,11 @@ body {
     overflow: hidden;
 }
 
+.nav li#datafeedr-plugin-v2,
+.nav li#factory-web-interface {
+    display: none;
+}
+
 .navbar .nav li {
     font-size: 0.8rem;
 }
