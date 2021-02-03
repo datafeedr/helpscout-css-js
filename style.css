@@ -80,16 +80,9 @@ body {
     border: none;
 }
 
-/*.articleList a span {*/
-/*    padding-left: 20px;*/
-/*}*/
-
-/*.icon-article-doc:before {*/
-/*    background-image: url("https://dreamy-yalow-dd1678.netlify.app/document-text.svg");*/
-/*    background-size: 16px 16px;*/
-/*    height: 16px;*/
-/*    width: 16px;*/
-/*}*/
+.related .icon-article-doc:before {
+    content: '';
+}
 
 #docsSearch {
     background: #ffffff;
