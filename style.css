@@ -166,6 +166,10 @@ body {
     margin: 2em 0;
     display: flex;
     flex-direction: column;
+    background: #f5f5f4;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
 }
 
 #fullArticle #toc .label {
@@ -180,8 +184,9 @@ body {
 #fullArticle #toc a {
     line-height: 1.5;
     text-decoration: none;
-    color: #111827;
+    color: #44403C;
     padding-top: .35rem;
+    white-space: nowrap;
 }
 
 #fullArticle #toc a:hover {
@@ -197,26 +202,26 @@ body {
 
 #fullArticle #toc .h2 {
     padding-left: 0;
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 #fullArticle #toc .h3 {
     padding-left: 1.5rem;
-    font-size: 1.1rem;
-    font-weight: 500;
+    font-size: 0.9rem;
+    font-weight: 400;
 }
 
 #fullArticle #toc .h4 {
     padding-left: 3rem;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 400;
 }
 
 #fullArticle #toc .h5 {
     padding-left: 4.5rem;
     font-size: 0.8rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .ml-8 {
