@@ -121,7 +121,7 @@ input:focus, input[type=text]:focus {
 }
 
 .collection-category .category-list a {
-    width: auto;
+    width: auto !important;
     margin: 0;
 }
 
