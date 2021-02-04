@@ -114,6 +114,17 @@ input:focus, input[type=text]:focus {
     padding: 4.5em 0;
 }
 
+.collection-category .category-list {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.collection-category .category-list a {
+    width: auto;
+    margin: 0;
+}
+
 .category-list .category:hover {
     transform: translateY(-0.35rem);
     background-color: white;
