@@ -29,6 +29,10 @@ input:focus, input[type=text]:focus {
     border-color: rgba(148, 80, 183, 0.70);
 }
 
+.icon-search:before {
+    color: #ffffff;
+}
+
 .navbar .brand {
     height: 34px;
     text-shadow: none;
