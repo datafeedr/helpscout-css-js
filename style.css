@@ -137,6 +137,7 @@ input:focus, input[type=text]:focus {
     border: none;
     transform: translateY(0);
     transition: transform 0.25s;
+    padding: 3rem 0.5rem;
 }
 
 .category-list .category h3 {
@@ -146,7 +147,7 @@ input:focus, input[type=text]:focus {
 
 .category-list .category p {
     color: #78716C;
-    min-height: 36px;
+    /*min-height: 36px;*/
 }
 
 .category-list .category .article-count,
