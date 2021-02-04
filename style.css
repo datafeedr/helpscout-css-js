@@ -343,5 +343,14 @@ input:focus, input[type=text]:focus {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
 }
 
-/* Utilities */
+@media (max-width: 768px) {
+    .navbar .btn-navbar {
+        margin-top: 26px;
+    }
+}
 
+@media (max-width: 768px) {
+    .navbar .btn-navbar .icon-bar {
+        background: #ffffff;
+    }
+}
