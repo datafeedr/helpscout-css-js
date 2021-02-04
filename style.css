@@ -150,6 +150,10 @@ input:focus, input[type=text]:focus {
     /*min-height: 36px;*/
 }
 
+.category-list .category .article-count {
+    color: #57534E;
+}
+
 .category-list .category .article-count,
 .category-list .category:hover .article-count {
     text-transform: uppercase;
