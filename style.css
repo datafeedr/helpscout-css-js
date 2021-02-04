@@ -369,3 +369,9 @@ input:focus, input[type=text]:focus {
         background: #ffffff;
     }
 }
+
+@media (max-width: 768px) {
+    .collection-category .category-list {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
